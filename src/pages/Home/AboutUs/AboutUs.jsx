@@ -2,7 +2,7 @@ import img1 from "../../../assets/images/about_us/person.jpg";
 import img2 from "../../../assets/images/about_us/parts.jpg";
 function AboutUs() {
   return (
-    <div className="flex sm:flex-col md:flex-row">
+    <div className="flex sm:flex-col md:flex-row my-32">
       <div className="relative lg:w-1/2">
         <img src={img1} alt="" className="w-3/4" />
         <img
