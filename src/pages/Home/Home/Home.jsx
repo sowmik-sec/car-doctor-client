@@ -1,5 +1,6 @@
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
 import Services from "../Services/Services";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
       <Banner />
       <AboutUs />
       <Services />
+      <Contact />
     </div>
   );
 }
