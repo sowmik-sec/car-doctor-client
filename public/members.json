@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Isac Newton",
+    "img": "https://i.ibb.co/zNrtQv7/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bill Gates",
+    "img": "https://i.ibb.co/8YK7c5m/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jeff Bezos",
+    "img": "https://i.ibb.co/d5pm8n5/3.jpg"
+  }
+]
