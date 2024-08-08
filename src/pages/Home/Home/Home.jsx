@@ -5,6 +5,7 @@ import CoreFeatures from "../CoreFeatures/CoreFeatures";
 import Products from "../Products/Products";
 import Services from "../Services/Services";
 import Team from "../Team/Team";
+import Testimonial from "../Testimonial/Testimonial";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <Products />
       <Team />
       <CoreFeatures />
+      <Testimonial />
     </div>
   );
 }
