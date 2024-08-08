@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/q0FVmzz/1.png",
+    "name": "Break Plate with Caliper",
+    "price": 200
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/PFrtCbp/2.png",
+    "name": "Suspension",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/9Gh6pZh/3.png",
+    "name": "Car Air filter",
+    "price": 25
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/ZMvJNsg/4.png",
+    "name": "Battery",
+    "price": 125
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/M6mfQ6h/5.png",
+    "name": "Car Tire",
+    "price": 180
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/ssRTnTC/6.png",
+    "name": "Basic Mechanic kits",
+    "price": 89
+  }
+]
