@@ -22,7 +22,12 @@ function Navbar() {
         <Link to={"/about"}>About</Link>
       </li>
       {user?.email ? (
-        <button onClick={handleLogout}>Logout</button>
+        <>
+          <button onClick={handleLogout}>Logout</button>
+          <li>
+            <Link to={"/bookings"}>My Bookings</Link>
+          </li>
+        </>
       ) : (
         <li>
           <Link to={"/login"}>Login</Link>
