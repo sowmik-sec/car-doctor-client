@@ -1,6 +1,18 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 function Navbar() {
+  const { user, logOut } = useContext(AuthContext);
+  const handleLogout = () => {
+    logOut()
+      .then(() => {
+        console.log("Sign out successful");
+      })
+      .catch((err) => {
+        console.error(err);
+      });
+  };
   const navItems = (
     <>
       <li>
@@ -9,6 +21,13 @@ function Navbar() {
       <li>
         <Link to={"/about"}>About</Link>
       </li>
+      {user?.email ? (
+        <button onClick={handleLogout}>Logout</button>
+      ) : (
+        <li>
+          <Link to={"/login"}>Login</Link>
+        </li>
+      )}
     </>
   );
   return (
