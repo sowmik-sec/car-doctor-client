@@ -10,7 +10,7 @@ function Service({ service }) {
       <h3 className="text-2xl font-bold">{title}</h3>
       <div className="flex justify-between">
         <p className="text-xl text-p-color">Price: ${price}</p>
-        <Link to={`/checkout/${_id}`}>
+        <Link to={`/book/${_id}`}>
           <FaArrowRight className="text-p-color" />
         </Link>
       </div>
